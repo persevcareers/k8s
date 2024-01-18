@@ -16,3 +16,8 @@ kubectl get nodes
 
 #List the sevices in the cluster
 kubectl get services
+
+#create/update objects using a deployment file,
+kubectl create -f nginx-deployment.yaml
+
+kubectl apply -f nginx-deployment.yaml
