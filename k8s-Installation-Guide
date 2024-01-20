@@ -108,7 +108,7 @@ https://v1-24.docs.kubernetes.io/docs/setup/production-environment/tools/kubeadm
 ===============================================
 Initializing cluster:
 
-sudo kubeadm init [Only on WORKER Nodes]
+sudo kubeadm init [Only on MASTER Nodes]
 ==============================================================================
 12.CNI:
 Installing Networking solution: 
