@@ -106,11 +106,13 @@ sudo apt-mark hold kubelet kubeadm kubectl
 =================================================
 https://v1-24.docs.kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/
 ===============================================
+Initializing cluster:
 
-
+sudo kubeadm init [Only on WORKER Nodes]
+==============================================================================
 12.CNI:
 Installing Networking solution: 
 
 https://www.weave.works/docs/net/latest/kubernetes/kube-addon/
 
-Please execute: sudo  kubectl apply -f https://github.com/weaveworks/weave/releases/download/v2.8.1/weave-daemonset-k8s.yaml
+Please execute: kubectl apply -f https://github.com/weaveworks/weave/releases/download/v2.8.1/weave-daemonset-k8s.yaml
