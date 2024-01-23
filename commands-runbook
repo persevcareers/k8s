@@ -21,3 +21,11 @@ kubectl get services
 kubectl create -f nginx-deployment.yaml
 
 kubectl apply -f nginx-deployment.yaml
+
+
+Creating namespaces:
+kubectl create ns <name-namespace>
+
+kubectl apply -f create-namespace.yml
+Get ns:
+kubectl get ns
