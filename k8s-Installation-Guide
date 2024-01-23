@@ -111,8 +111,7 @@ Initializing cluster:
 sudo kubeadm init [Only on MASTER Nodes]
 ==============================================================================
 12.CNI:
-Installing Networking solution: 
-
-https://www.weave.works/docs/net/latest/kubernetes/kube-addon/
-
-Please execute: kubectl apply -f https://github.com/weaveworks/weave/releases/download/v2.8.1/weave-daemonset-k8s.yaml
+Installing Networking solution:  
+Link for documentation : https://www.weave.works/docs/net/latest/kubernetes/kube-addon/
+[Only on MASTER Nodes]
+Please execute: kubectl apply -f https://github.com/weaveworks/weave/releases/download/v2.8.1/weave-daemonset-k8s.yaml [Only on MASTER Nodes]
