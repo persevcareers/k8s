@@ -33,7 +33,7 @@ Labelling Nodes:
 kubectl label nodes node-name  key=value
 
 Unlabelling:
-kubectl taint nodes node-name  key-
+kubectl label nodes node-name  key-
 
 tainting nodes:
 kubectl taint nodes node-name  key=value:effect
