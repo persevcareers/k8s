@@ -42,4 +42,19 @@ kubectl taint nodes node-name  node=dev:PreferNoSchedule
 kubectl taint nodes node-name  node=dev:NoExecute
 
 Untainting nodes
+
 kubectl taint nodes node-name  key=value:effect-
+
+kubectl rollout history deployment <deployment-name>
+
+kubectl rollout status deployment <deployment-name>
+
+kubectl rollout pause deployment <deployment-name>
+
+kubectl rollout resume deployment <deployment-name>
+
+kubectl rollout restart deployment <deployment-name>
+
+kubectl rollout undo deployment <deployment-name> 
+
+kubectl rollout undo deployment <deployment-name> --to-revision=<revision>
