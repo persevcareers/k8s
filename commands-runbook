@@ -41,10 +41,10 @@ kubectl taint nodes node-name  node=dev:NoSchedule
 kubectl taint nodes node-name  node=dev:PreferNoSchedule
 kubectl taint nodes node-name  node=dev:NoExecute
 
-Untainting nodes
-
+Untainting nodes:
 kubectl taint nodes node-name  key=value:effect-
 
+Deployment rollout :
 kubectl rollout history deployment <deployment-name>
 
 kubectl rollout status deployment <deployment-name>
