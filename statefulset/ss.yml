@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
-  name: db-statefulset
+  name: web-statefulset
 spec:
   replicas: 3
   selector:
     matchLabels:
-  	app: db
+  	app: web
   template:
     metadata:
   	labels:
-    	app: db
+    	app: web
     spec:
   	containers:
-  	- name: db
-    	image: mysql:latest
+  	- name: web
+    	image: nginx:latest
     	ports:
-    	- containerPort: 3306
+    	- containerPort: 80
