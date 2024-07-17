@@ -1,4 +1,4 @@
-# Installation of NGINX Ingress Controller on Azure Kubernetes Service,
+# Installation of NGINX Ingress Controller on Azure Kubernetes Service
 
 ## Creating a Resource group ,
 ```bash
@@ -23,7 +23,7 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/cont
 ```
 ## It creates all different required resources in ingress-nginx namespace.
 
-# Deployment of application , 
+## Deployment of application , 
   kubectl apply of deployment-v1.yml and deployment-v2.yml two different paths with two different versions of a product.
  
  Deploy your application with manifest which have deployment and svc as well.
