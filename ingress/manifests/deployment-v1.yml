@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend-moviestreaming
-        image: persevcareers6577/custom-images:netflix-v1
+        image: persevcareers/custom-images:netflix-v1
         ports:
         - containerPort: 80
       imagePullSecrets:
