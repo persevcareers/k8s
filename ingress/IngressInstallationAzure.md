@@ -1,4 +1,4 @@
-## Installation of NGINX Ingress Controller on Azure Kubernetes Service,
+# Installation of NGINX Ingress Controller on Azure Kubernetes Service,
 
 ## Creating a Resource group ,
 ```bash
