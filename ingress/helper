@@ -1,3 +1,6 @@
-gcloud container clusters create CLUSTER_NAME \
+gcloud container clusters create dev-cluster \
     --num-nodes=2 \
     --zone=us-central1-a
+
+
+gcloud container clusters get-credentials dev-cluster --zone=us-central1-a
