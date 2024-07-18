@@ -14,8 +14,9 @@ az aks create
  --generate-ssh-keys
 ```
 ## Connecting to AKS cluster
+```bash
 az aks get-credentials --resource-group dev-env --name aks-dev-env
-
+```
 ## To install the NGINX Ingress Controller on your Kubernetes cluster, follow these steps:
 
 ```bash
