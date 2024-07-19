@@ -1,0 +1,17 @@
+echo -n "admin" | base64
+echo -n "admin":
+echo is a command that outputs the strings it is given.
+The -n option prevents echo from adding a newline character at the end of the output.
+This command outputs the string admin without a trailing newline.
+|:
+The pipe symbol (|) takes the output of the command on its left (in this case, echo -n "admin") and uses it as input for the command on its right.
+base64:
+base64 is a command-line utility for encoding and decoding data using Base64.
+Without any options, base64 encodes the input data to Base64.
+echo -n "admin" | base64 --decode
+echo -n "admin":
+Same as above, this command outputs the string admin without a trailing newline.
+|:
+The pipe symbol (|) takes the output of the command on its left and uses it as input for the command on its right.
+base64 --decode:
+--decode is an option for the base64 command that tells it to decode the input data from Base64 back to its original form.
